@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Hacked';
+    src: url(../fonts/HACKED.ttf) format(trueType),
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato-Regular.ttf) format(trueType),
+}
+
+body {
+    background-color: #df5252;
+}
+
+h1 {
+    font-size: 150px;
+    font-family: 'Hacked';
+    color: blanchedalmond;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+ul li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-family: 'Lato';
+    font-size: 30px;
+}
+
+ul {
+    margin: 0 0 0 50px;
+}
+
+ul li:hover {
+    text-shadow: 0 0 10px #1C1C1C;
+}
